@@ -2,36 +2,47 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Facebook – log in or sign up]]>
+      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
     </line>
     <line>
-      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjM4NDE3MjAzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+    </line>
+    <line>
+      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+    </line>
+    <line>
+      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-02T09:23:17 IST" name="Failed suite [Suite]" finished-at="2021-12-02T09:23:31 IST" duration-ms="13954">
+  <suite started-at="2021-12-03T08:23:59 IST" name="Suite" finished-at="2021-12-03T08:25:00 IST" duration-ms="61225">
     <groups>
     </groups>
-    <test started-at="2021-12-02T09:23:17 IST" name="Test(failed)" finished-at="2021-12-02T09:23:31 IST" duration-ms="13954">
-      <class name="testng.Testcase1">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testng.Testcase1@45ca843]" started-at="2021-12-02T09:23:17 IST" name="openApp" finished-at="2021-12-02T09:23:24 IST" duration-ms="6482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="tc1()[pri:0, instance:testng.Testcase1@45ca843]" started-at="2021-12-02T09:23:24 IST" name="tc1" finished-at="2021-12-02T09:23:27 IST" duration-ms="3124" status="PASS">
+    <test started-at="2021-12-03T08:23:59 IST" name="Test2" finished-at="2021-12-03T08:25:00 IST" duration-ms="61225">
+      <class name="testng.Parallel">
+        <test-method signature="demo(java.lang.String)[pri:0, instance:testng.Parallel@1329eff]" started-at="2021-12-03T08:23:59 IST" name="demo" finished-at="2021-12-03T08:25:00 IST" duration-ms="61112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Facebook – log in or sign up]]>
+              <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
             </line>
             <line>
-              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjM4NDE3MjAzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testng.Testcase1@45ca843]" started-at="2021-12-02T09:23:27 IST" name="closeApp" finished-at="2021-12-02T09:23:31 IST" duration-ms="4240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- testng.Testcase1 -->
-    </test> <!-- Test(failed) -->
-  </suite> <!-- Failed suite [Suite] -->
+        </test-method> <!-- demo -->
+      </class> <!-- testng.Parallel -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

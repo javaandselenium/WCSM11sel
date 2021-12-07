@@ -23,7 +23,7 @@ public class Testcase2 {
 	
 	@Test
 	public void tc2() {
-		driver.findElement(By.linkText("Forgotten password?")).click();
+	driver.findElement(By.linkText("Forgotten password?")).click();
 	driver.findElement(By.id("identify_email")).sendKeys("857657686878");	
 	driver.findElement(By.id("did_submit")).click();
 	Reporter.log(driver.getTitle(),true);
